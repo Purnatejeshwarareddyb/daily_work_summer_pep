@@ -1,0 +1,670 @@
+B.PURNA@LAPTOP-J6ETFI9T MINGW64 ~
+$ ^C
+
+B.PURNA@LAPTOP-J6ETFI9T MINGW64 ~
+$ ccd /c/Users/B.PURNA/Downloads
+bash: $'\302\226cd': command not found
+
+B.PURNA@LAPTOP-J6ETFI9T MINGW64 ~
+$ ls
+ -1.14-windows.xml            'Local Settings'@                                                                                    Searches/              imbalanced_dataset.csv           'notebook 7.ipynb'
+ AndroidStudioProjects/        Music/                                                                                              SendTo@                intellij-chatgpt/                 ntuser.dat.LOG1
+ AppData/                     'My Documents'@                                                                                     'Start Menu'@           java_error_in_pycharm_14892.log   ntuser.dat.LOG2
+'Application Data'@            NTUSER.DAT                                                                                          Templates@             java_error_in_pycharm_18688.log   ntuser.ini
+'Cisco Packet Tracer 6.2sv'/   NTUSER.DAT{2ad838bc-efea-11ee-a54d-000d3a94eaa1}.TM.blf                                             Untitled-2.txt         java_error_in_pycharm_20956.log   package-lock.json
+'Cisco Packet Tracer 7.3.0'/   NTUSER.DAT{2ad838bc-efea-11ee-a54d-000d3a94eaa1}.TM.blf.cnpf                                        Untitled.ipynb         java_error_in_pycharm_21216.log   package.json
+ Contacts/                     NTUSER.DAT{2ad838bc-efea-11ee-a54d-000d3a94eaa1}.TMContainer00000000000000000001.regtrans-ms        Videos/                java_error_in_pycharm_23044.log   php1.txt
+ Cookies@                      NTUSER.DAT{2ad838bc-efea-11ee-a54d-000d3a94eaa1}.TMContainer00000000000000000001.regtrans-ms.cnpf  'VirtualBox VMs'/       java_error_in_pycharm_3040.log    phpmailer/
+ CrossDevice/                  NTUSER.DAT{2ad838bc-efea-11ee-a54d-000d3a94eaa1}.TMContainer00000000000000000002.regtrans-ms        build/                 java_error_in_pycharm_4408.log    ram
+ Desktop/                      NTUSER.DAT{2ad838bc-efea-11ee-a54d-000d3a94eaa1}.TMContainer00000000000000000002.regtrans-ms.cnpf   composer.json          java_error_in_pycharm_6548.log    requirements.txt
+ DevOps-Visualizer-Project/    NetHood@                                                                                            composer.lock          knn.ipynb                         rustup-init.exe*
+ Documents/                   'OSI Layer Responsibilities.txt'                                                                     composer.phar*         knn_dataset.xls                   setup.cfg
+ Downloads/                    OneDrive/                                                                                           create_iconcrypt.bat   mavendemo/                        setup.py
+ Dropbox/                      PHP.txt                                                                                             eclipse/               miktex-console.lock               teja
+ Favorites/                    PrintHood@                                                                                          eclipse-workspace/     my-fst-fit/                       teja12/
+ InfinitePuzzleGame/           PycharmProjects/                                                                                    environment.yml        my-fst-git/                       temp/
+ Jedi/                         README.md                                                                                           git/                   myproj/                           vendor/
+ LICENSE                       Recent@                                                                                             iconcrypt/             myproj.zip
+ Links/                       'Saved Games'/                                                                                       imbalanced.ipynb       netsh
+
+B.PURNA@LAPTOP-J6ETFI9T MINGW64 ~
+$ ^C
+
+B.PURNA@LAPTOP-J6ETFI9T MINGW64 ~
+$ cd /c/Users/B.PURNA/Downloads
+
+B.PURNA@LAPTOP-J6ETFI9T MINGW64 ~/Downloads
+$ ls
+
+
+B.PURNA@LAPTOP-J6ETFI9T MINGW64 ~/Downloads
+$ ls *.pem~
+ls: cannot access '*.pem~': No such file or directory
+
+B.PURNA@LAPTOP-J6ETFI9T MINGW64 ~/Downloads
+$ ^C
+
+B.PURNA@LAPTOP-J6ETFI9T MINGW64 ~/Downloads
+$ ls *.pem
+Instance-1.pem  dockerconnect.pem  resumekey.pem  summerec21.pem  tejafirst-key.pem
+
+B.PURNA@LAPTOP-J6ETFI9T MINGW64 ~/Downloads
+$ ^C
+
+B.PURNA@LAPTOP-J6ETFI9T MINGW64 ~/Downloads
+$ ssh -i summerec21.pem ec2-user@34.227.111.68
+The authenticity of host '34.227.111.68 (34.227.111.68)' can't be established.
+ED25519 key fingerprint is: SHA256:XaoWxb4a+XerFFQli6Q95m0QmQAHFIZQslCf5z3d5Wg
+This key is not known by any other names.
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+Warning: Permanently added '34.227.111.68' (ED25519) to the list of known hosts.
+** WARNING: connection is not using a post-quantum key exchange algorithm.
+** This session may be vulnerable to "store now, decrypt later" attacks.
+** The server may need to be upgraded. See https://openssh.com/pq.html
+   ,     #_
+   ~\_  ####_        Amazon Linux 2023
+  ~~  \_#####\
+  ~~     \###|
+  ~~       \#/ ___   https://aws.amazon.com/linux/amazon-linux-2023
+   ~~       V~' '->
+    ~~~         /
+      ~~._.   _/
+         _/ _/
+       _/m/'
+[ec2-user@ip-172-31-31-192 ~]$ pwd
+/home/ec2-user
+[ec2-user@ip-172-31-31-192 ~]$ ls -la
+total 12
+drwx------. 3 ec2-user ec2-user  74 Jul 13 04:31 .
+drwxr-xr-x. 3 root     root      22 Jul 13 04:31 ..
+-rw-r--r--. 1 ec2-user ec2-user  18 Jan 28  2023 .bash_logout
+-rw-r--r--. 1 ec2-user ec2-user 141 Jan 28  2023 .bash_profile
+-rw-r--r--. 1 ec2-user ec2-user 492 Jan 28  2023 .bashrc
+drwx------. 2 ec2-user ec2-user  29 Jul 13 04:31 .ssh
+[ec2-user@ip-172-31-31-192 ~]$ sudo dnf update -y
+Amazon Linux 2023 Kernel Livepatch repository                                                                                                                                     426 kB/s |  55 kB     00:00
+Dependencies resolved.
+Nothing to do.
+Complete!
+[ec2-user@ip-172-31-31-192 ~]$ cat /etc/os-release
+NAME="Amazon Linux"
+VERSION="2023"
+ID="amzn"
+ID_LIKE="fedora"
+VERSION_ID="2023"
+PLATFORM_ID="platform:al2023"
+PRETTY_NAME="Amazon Linux 2023.12.20260710"
+ANSI_COLOR="0;33"
+CPE_NAME="cpe:2.3:o:amazon:amazon_linux:2023"
+HOME_URL="https://aws.amazon.com/linux/amazon-linux-2023/"
+DOCUMENTATION_URL="https://docs.aws.amazon.com/linux/"
+SUPPORT_URL="https://aws.amazon.com/premiumsupport/"
+BUG_REPORT_URL="https://github.com/amazonlinux/amazon-linux-2023"
+VENDOR_NAME="AWS"
+VENDOR_URL="https://aws.amazon.com/"
+SUPPORT_END="2029-06-30"
+[ec2-user@ip-172-31-31-192 ~]$ df -h
+Filesystem        Size  Used Avail Use% Mounted on
+devtmpfs          420M     0  420M   0% /dev
+tmpfs             457M     0  457M   0% /dev/shm
+tmpfs             183M  440K  183M   1% /run
+efivarfs          128K  2.7K  121K   3% /sys/firmware/efi/efivars
+/dev/nvme0n1p1    8.0G  1.7G  6.3G  22% /
+tmpfs             457M     0  457M   0% /tmp
+/dev/nvme0n1p128   10M  1.3M  8.7M  13% /boot/efi
+tmpfs              92M     0   92M   0% /run/user/1000
+[ec2-user@ip-172-31-31-192 ~]$ free -h
+               total        used        free      shared  buff/cache   available
+Mem:           912Mi       173Mi       431Mi       0.0Ki       308Mi       607Mi
+Swap:             0B          0B          0B
+[ec2-user@ip-172-31-31-192 ~]$ git --version
+-bash: git: command not found
+[ec2-user@ip-172-31-31-192 ~]$ ls
+[ec2-user@ip-172-31-31-192 ~]$ ^[[200~sudo dnf update -y
+-bash: $'\E[200~sudo': command not found
+[ec2-user@ip-172-31-31-192 ~]$ sudo dnf update -y
+Last metadata expiration check: 0:10:49 ago on Mon Jul 13 04:44:06 2026.
+Dependencies resolved.
+Nothing to do.
+Complete!
+[ec2-user@ip-172-31-31-192 ~]$ sudo dnf install git -y
+Last metadata expiration check: 0:11:02 ago on Mon Jul 13 04:44:06 2026.
+Dependencies resolved.
+==================================================================================================================================================================================================================
+ Package                                             Architecture                              Version                                                       Repository                                      Size
+==================================================================================================================================================================================================================
+Installing:
+ git                                                 x86_64                                    2.50.1-1.amzn2023.0.1                                         amazonlinux                                     53 k
+Installing dependencies:
+ git-core                                            x86_64                                    2.50.1-1.amzn2023.0.1                                         amazonlinux                                    4.9 M
+ git-core-doc                                        noarch                                    2.50.1-1.amzn2023.0.1                                         amazonlinux                                    2.8 M
+ perl-Error                                          noarch                                    1:0.17030-2.amzn2023.0.1                                      amazonlinux                                     42 k
+ perl-File-Find                                      noarch                                    1.37-477.amzn2023.0.9                                         amazonlinux                                     26 k
+ perl-Git                                            noarch                                    2.50.1-1.amzn2023.0.1                                         amazonlinux                                     41 k
+ perl-TermReadKey                                    x86_64                                    2.38-9.amzn2023.0.3                                           amazonlinux                                     36 k
+ perl-lib                                            x86_64                                    0.65-477.amzn2023.0.9                                         amazonlinux                                     15 k
+
+Transaction Summary
+==================================================================================================================================================================================================================
+Install  8 Packages
+
+Total download size: 7.9 M
+Installed size: 41 M
+Downloading Packages:
+(1/8): git-2.50.1-1.amzn2023.0.1.x86_64.rpm                                                                                                                                       1.0 MB/s |  53 kB     00:00
+(2/8): git-core-doc-2.50.1-1.amzn2023.0.1.noarch.rpm                                                                                                                               32 MB/s | 2.8 MB     00:00
+(3/8): perl-Error-0.17030-2.amzn2023.0.1.noarch.rpm                                                                                                                               1.0 MB/s |  42 kB     00:00
+(4/8): git-core-2.50.1-1.amzn2023.0.1.x86_64.rpm                                                                                                                                   40 MB/s | 4.9 MB     00:00
+(5/8): perl-File-Find-1.37-477.amzn2023.0.9.noarch.rpm                                                                                                                            699 kB/s |  26 kB     00:00
+(6/8): perl-Git-2.50.1-1.amzn2023.0.1.noarch.rpm                                                                                                                                  1.1 MB/s |  41 kB     00:00
+(7/8): perl-TermReadKey-2.38-9.amzn2023.0.3.x86_64.rpm                                                                                                                            1.1 MB/s |  36 kB     00:00
+(8/8): perl-lib-0.65-477.amzn2023.0.9.x86_64.rpm                                                                                                                                  534 kB/s |  15 kB     00:00
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Total                                                                                                                                                                              38 MB/s | 7.9 MB     00:00
+Running transaction check
+Transaction check succeeded.
+Running transaction test
+Transaction test succeeded.
+Running transaction
+  Preparing        :                                                                                                                                                                                          1/1
+  Installing       : git-core-2.50.1-1.amzn2023.0.1.x86_64                                                                                                                                                    1/8
+  Installing       : git-core-doc-2.50.1-1.amzn2023.0.1.noarch                                                                                                                                                2/8
+  Installing       : perl-lib-0.65-477.amzn2023.0.9.x86_64                                                                                                                                                    3/8
+  Installing       : perl-TermReadKey-2.38-9.amzn2023.0.3.x86_64                                                                                                                                              4/8
+  Installing       : perl-File-Find-1.37-477.amzn2023.0.9.noarch                                                                                                                                              5/8
+  Installing       : perl-Error-1:0.17030-2.amzn2023.0.1.noarch                                                                                                                                               6/8
+  Installing       : perl-Git-2.50.1-1.amzn2023.0.1.noarch                                                                                                                                                    7/8
+  Installing       : git-2.50.1-1.amzn2023.0.1.x86_64                                                                                                                                                         8/8
+  Running scriptlet: git-2.50.1-1.amzn2023.0.1.x86_64                                                                                                                                                         8/8
+  Verifying        : git-2.50.1-1.amzn2023.0.1.x86_64                                                                                                                                                         1/8
+  Verifying        : git-core-2.50.1-1.amzn2023.0.1.x86_64                                                                                                                                                    2/8
+  Verifying        : git-core-doc-2.50.1-1.amzn2023.0.1.noarch                                                                                                                                                3/8
+  Verifying        : perl-Error-1:0.17030-2.amzn2023.0.1.noarch                                                                                                                                               4/8
+  Verifying        : perl-File-Find-1.37-477.amzn2023.0.9.noarch                                                                                                                                              5/8
+  Verifying        : perl-Git-2.50.1-1.amzn2023.0.1.noarch                                                                                                                                                    6/8
+  Verifying        : perl-TermReadKey-2.38-9.amzn2023.0.3.x86_64                                                                                                                                              7/8
+  Verifying        : perl-lib-0.65-477.amzn2023.0.9.x86_64                                                                                                                                                    8/8
+
+Installed:
+  git-2.50.1-1.amzn2023.0.1.x86_64                      git-core-2.50.1-1.amzn2023.0.1.x86_64           git-core-doc-2.50.1-1.amzn2023.0.1.noarch             perl-Error-1:0.17030-2.amzn2023.0.1.noarch
+  perl-File-Find-1.37-477.amzn2023.0.9.noarch           perl-Git-2.50.1-1.amzn2023.0.1.noarch           perl-TermReadKey-2.38-9.amzn2023.0.3.x86_64           perl-lib-0.65-477.amzn2023.0.9.x86_64
+
+Complete!
+[ec2-user@ip-172-31-31-192 ~]$ git --version
+git version 2.50.1
+[ec2-user@ip-172-31-31-192 ~]$ git clone https://github.com/Purnatejeshwarareddyb/resume-previewer-devops.git
+Cloning into 'resume-previewer-devops'...
+remote: Enumerating objects: 60, done.
+remote: Counting objects: 100% (60/60), done.
+remote: Compressing objects: 100% (38/38), done.
+remote: Total 60 (delta 11), reused 50 (delta 6), pack-reused 0 (from 0)
+Receiving objects: 100% (60/60), 18.73 MiB | 38.97 MiB/s, done.
+Resolving deltas: 100% (11/11), done.
+[ec2-user@ip-172-31-31-192 ~]$ ls
+resume-previewer-devops
+[ec2-user@ip-172-31-31-192 ~]$ cd resume-previewer-devops
+[ec2-user@ip-172-31-31-192 resume-previewer-devops]$ ls
+Jenkinsfile  README.md  backend  docker-compose.yml  frontend  purnatejeshwarareddy15devopscompressed15.pdf
+[ec2-user@ip-172-31-31-192 resume-previewer-devops]$ pwd
+/home/ec2-user/resume-previewer-devops
+[ec2-user@ip-172-31-31-192 resume-previewer-devops]$ cd ..
+[ec2-user@ip-172-31-31-192 ~]$ ls
+resume-previewer-devops
+[ec2-user@ip-172-31-31-192 ~]$ rm -rf resume-previewer-devops
+[ec2-user@ip-172-31-31-192 ~]$ ls
+[ec2-user@ip-172-31-31-192 ~]$ git clone https://github.com/Hiiankit/devops-server.git
+Cloning into 'devops-server'...
+remote: Enumerating objects: 7, done.
+remote: Counting objects: 100% (7/7), done.
+remote: Compressing objects: 100% (6/6), done.
+Receiving objects: 100% (7/7), 7.93 KiB | 7.93 MiB/s, done.
+remote: Total 7 (delta 0), reused 7 (delta 0), pack-reused 0 (from 0)
+[ec2-user@ip-172-31-31-192 ~]$ cd devops-server
+[ec2-user@ip-172-31-31-192 devops-server]$ ls -la
+total 48
+drwxr-xr-x. 3 ec2-user ec2-user   118 Jul 13 05:02 .
+drwx------. 4 ec2-user ec2-user    95 Jul 13 05:02 ..
+-rw-r--r--. 1 ec2-user ec2-user    10 Jul 13 05:02 .env.example
+drwxr-xr-x. 7 ec2-user ec2-user   147 Jul 13 05:02 .git
+-rw-r--r--. 1 ec2-user ec2-user    87 Jul 13 05:02 .gitignore
+-rw-r--r--. 1 ec2-user ec2-user 28929 Jul 13 05:02 package-lock.json
+-rw-r--r--. 1 ec2-user ec2-user   244 Jul 13 05:02 package.json
+-rw-r--r--. 1 ec2-user ec2-user   269 Jul 13 05:02 server.js
+[ec2-user@ip-172-31-31-192 devops-server]$ node -v
+npm -v
+-bash: node: command not found
+-bash: npm: command not found
+[ec2-user@ip-172-31-31-192 devops-server]$ sudo dnf install nodejs -y
+Last metadata expiration check: 0:19:44 ago on Mon Jul 13 04:44:06 2026.
+Dependencies resolved.
+==================================================================================================================================================================================================================
+ Package                                           Architecture                            Version                                                             Repository                                    Size
+==================================================================================================================================================================================================================
+Installing:
+ nodejs                                            x86_64                                  1:18.20.8-1.amzn2023.0.2                                            amazonlinux                                   13 M
+Installing dependencies:
+ libbrotli                                         x86_64                                  1.0.9-4.amzn2023.0.2                                                amazonlinux                                  315 k
+ nodejs-libs                                       x86_64                                  1:18.20.8-1.amzn2023.0.2                                            amazonlinux                                   14 M
+Installing weak dependencies:
+ nodejs-docs                                       noarch                                  1:18.20.8-1.amzn2023.0.2                                            amazonlinux                                  7.8 M
+ nodejs-full-i18n                                  x86_64                                  1:18.20.8-1.amzn2023.0.2                                            amazonlinux                                  8.4 M
+ nodejs-npm                                        x86_64                                  1:10.8.2-1.18.20.8.1.amzn2023.0.2                                   amazonlinux                                  1.9 M
+
+Transaction Summary
+==================================================================================================================================================================================================================
+Install  6 Packages
+
+Total download size: 45 M
+Installed size: 224 M
+Downloading Packages:
+(1/6): libbrotli-1.0.9-4.amzn2023.0.2.x86_64.rpm                                                                                                                                  6.2 MB/s | 315 kB     00:00
+(2/6): nodejs-docs-18.20.8-1.amzn2023.0.2.noarch.rpm                                                                                                                               50 MB/s | 7.8 MB     00:00
+(3/6): nodejs-full-i18n-18.20.8-1.amzn2023.0.2.x86_64.rpm                                                                                                                          53 MB/s | 8.4 MB     00:00
+(4/6): nodejs-18.20.8-1.amzn2023.0.2.x86_64.rpm                                                                                                                                    46 MB/s |  13 MB     00:00
+(5/6): nodejs-npm-10.8.2-1.18.20.8.1.amzn2023.0.2.x86_64.rpm                                                                                                                       20 MB/s | 1.9 MB     00:00
+(6/6): nodejs-libs-18.20.8-1.amzn2023.0.2.x86_64.rpm                                                                                                                               55 MB/s |  14 MB     00:00
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Total                                                                                                                                                                              98 MB/s |  45 MB     00:00
+Running transaction check
+Transaction check succeeded.
+Running transaction test
+Transaction test succeeded.
+Running transaction
+  Preparing        :                                                                                                                                                                                          1/1
+  Installing       : nodejs-docs-1:18.20.8-1.amzn2023.0.2.noarch                                                                                                                                              1/6
+  Installing       : libbrotli-1.0.9-4.amzn2023.0.2.x86_64                                                                                                                                                    2/6
+  Installing       : nodejs-libs-1:18.20.8-1.amzn2023.0.2.x86_64                                                                                                                                              3/6
+  Installing       : nodejs-full-i18n-1:18.20.8-1.amzn2023.0.2.x86_64                                                                                                                                         4/6
+  Installing       : nodejs-npm-1:10.8.2-1.18.20.8.1.amzn2023.0.2.x86_64                                                                                                                                      5/6
+  Installing       : nodejs-1:18.20.8-1.amzn2023.0.2.x86_64                                                                                                                                                   6/6
+  Running scriptlet: nodejs-1:18.20.8-1.amzn2023.0.2.x86_64                                                                                                                                                   6/6
+INFO: registered node-18 in the alternatives
+
+  Verifying        : libbrotli-1.0.9-4.amzn2023.0.2.x86_64                                                                                                                                                    1/6
+  Verifying        : nodejs-1:18.20.8-1.amzn2023.0.2.x86_64                                                                                                                                                   2/6
+  Verifying        : nodejs-docs-1:18.20.8-1.amzn2023.0.2.noarch                                                                                                                                              3/6
+  Verifying        : nodejs-full-i18n-1:18.20.8-1.amzn2023.0.2.x86_64                                                                                                                                         4/6
+  Verifying        : nodejs-libs-1:18.20.8-1.amzn2023.0.2.x86_64                                                                                                                                              5/6
+  Verifying        : nodejs-npm-1:10.8.2-1.18.20.8.1.amzn2023.0.2.x86_64                                                                                                                                      6/6
+
+Installed:
+  libbrotli-1.0.9-4.amzn2023.0.2.x86_64            nodejs-1:18.20.8-1.amzn2023.0.2.x86_64                   nodejs-docs-1:18.20.8-1.amzn2023.0.2.noarch      nodejs-full-i18n-1:18.20.8-1.amzn2023.0.2.x86_64
+  nodejs-libs-1:18.20.8-1.amzn2023.0.2.x86_64      nodejs-npm-1:10.8.2-1.18.20.8.1.amzn2023.0.2.x86_64
+
+Complete!
+[ec2-user@ip-172-31-31-192 devops-server]$ node -v
+npm -v
+v18.20.8
+10.8.2
+[ec2-user@ip-172-31-31-192 devops-server]$ npm install
+
+added 65 packages, and audited 66 packages in 2s
+
+22 packages are looking for funding
+  run `npm fund` for details
+
+2 vulnerabilities (1 moderate, 1 high)
+
+To address all issues, run:
+  npm audit fix
+
+Run `npm audit` for details.
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 12.0.1
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.0.1
+npm notice To update run: npm install -g npm@12.0.1
+npm notice
+[ec2-user@ip-172-31-31-192 devops-server]$ node server.js
+Server listening on port 3000
+Read from remote host 34.227.111.68: Connection reset by peer
+Connection to 34.227.111.68 closed.
+client_loop: send disconnect: Connection reset by peer
+
+B.PURNA@LAPTOP-J6ETFI9T MINGW64 ~/Downloads
+$ node server.js
+bash: node: command not found
+
+B.PURNA@LAPTOP-J6ETFI9T MINGW64 ~/Downloads
+$ cd ~/devops-server
+node server.js
+bash: cd: /c/Users/B.PURNA/devops-server: No such file or directory
+bash: node: command not found
+
+B.PURNA@LAPTOP-J6ETFI9T MINGW64 ~/Downloads
+$ cd /c/Users/B.PURNA/Downloads
+ssh -i summerec21.pem ec2-user@34.227.111.68
+ssh: connect to host 34.227.111.68 port 22: Connection timed out
+
+B.PURNA@LAPTOP-J6ETFI9T MINGW64 ~/Downloads
+$ cd /c/Users/B.PURNA/Downloads
+
+B.PURNA@LAPTOP-J6ETFI9T MINGW64 ~/Downloads
+$ ssh -i summerec21.pem ec2-user@200~34.227.111.68
+ssh: Could not resolve hostname 200~34.227.111.68: Name or service not known
+
+B.PURNA@LAPTOP-J6ETFI9T MINGW64 ~/Downloads
+$ B.PURNA@LAPTOP-J6ETFI9T MINGW64 ~/Downloads
+$ ssh -i summerec21.pem ec2-user@200~34.227.111.68
+ssh: Could not resolve hostname 200~34.227.111.68: Name or service not known
+
+B.PURNA@LAPTOP-J6ETFI9T MINGW64 ~/Downloads
+$
+bash: B.PURNA@LAPTOP-J6ETFI9T: command not found
+bash: $: command not found
+bash: ssh:: command not found
+bash: B.PURNA@LAPTOP-J6ETFI9T: command not found
+bash: $: command not found
+
+B.PURNA@LAPTOP-J6ETFI9T MINGW64 ~/Downloads
+$ ssh -i summerec21.pem ec2-user@34.227.111.68
+ssh: connect to host 34.227.111.68 port 22: Connection timed out
+
+B.PURNA@LAPTOP-J6ETFI9T MINGW64 ~/Downloads
+$ ssh -i summerec21.pem ec2-user@34.227.111.68
+ssh: connect to host 34.227.111.68 port 22: Connection timed out
+
+B.PURNA@LAPTOP-J6ETFI9T MINGW64 ~/Downloads
+$ ssh -i summerec21.pem ec2-user@34.227.111.68
+** WARNING: connection is not using a post-quantum key exchange algorithm.
+** This session may be vulnerable to "store now, decrypt later" attacks.
+** The server may need to be upgraded. See https://openssh.com/pq.html
+   ,     #_
+   ~\_  ####_        Amazon Linux 2023
+  ~~  \_#####\
+  ~~     \###|
+  ~~       \#/ ___   https://aws.amazon.com/linux/amazon-linux-2023
+   ~~       V~' '->
+    ~~~         /
+      ~~._.   _/
+         _/ _/
+       _/m/'
+Last login: Mon Jul 13 04:41:48 2026 from 128.185.168.213
+[ec2-user@ip-172-31-31-192 ~]$ cd devops-server
+[ec2-user@ip-172-31-31-192 devops-server]$ node server.js
+Server listening on port 3000
+[ec2-user@ip-172-31-31-192 devops-server]$ sudo npm install -g pm2
+pm2 start server.js
+pm2 list
+pm2 save
+pm2 startup
+
+added 77 packages in 6s
+
+8 packages are looking for funding
+  run `npm fund` for details
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 12.0.1
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.0.1
+npm notice To update run: npm install -g npm@12.0.1
+npm notice
+
+                        -------------
+
+__/\\\\\\\\\\\\\____/\\\\____________/\\\\____/\\\\\\\\\_____
+ _\/\\\/////////\\\_\/\\\\\\________/\\\\\\__/\\\///////\\\___
+  _\/\\\_______\/\\\_\/\\\//\\\____/\\\//\\\_\///______\//\\\__
+   _\/\\\\\\\\\\\\\/__\/\\\\///\\\/\\\/_\/\\\___________/\\\/___
+    _\/\\\/////////____\/\\\__\///\\\/___\/\\\________/\\\//_____
+     _\/\\\_____________\/\\\____\///_____\/\\\_____/\\\//________
+      _\/\\\_____________\/\\\_____________\/\\\___/\\\/___________
+       _\/\\\_____________\/\\\_____________\/\\\__/\\\\\\\\\\\\\\\_
+        _\///______________\///______________\///__\///////////////__
+
+
+                          Runtime Edition
+
+        PM2 is a Production Process Manager for Node.js applications
+                     with a built-in Load Balancer.
+
+                Start and Daemonize any application:
+                $ pm2 start app.js
+
+                Load Balance 4 instances of api.js:
+                $ pm2 start api.js -i 4
+
+                Monitor in production:
+                $ pm2 monitor
+
+                Make pm2 auto-boot at server restart:
+                $ pm2 startup
+
+                To go further checkout:
+                http://pm2.io/
+
+
+                        -------------
+
+[PM2] Spawning PM2 daemon with pm2_home=/home/ec2-user/.pm2
+[PM2] PM2 Successfully daemonized
+[PM2] Starting /home/ec2-user/devops-server/server.js in fork_mode (1 instance)
+[PM2] Done.
+┌────┬───────────┬─────────────┬─────────┬─────────┬──────────┬────────┬──────┬───────────┬──────────┬──────────┬──────────┬──────────┐
+│ id │ name      │ namespace   │ version │ mode    │ pid      │ uptime │ ↺    │ status    │ cpu      │ mem      │ user     │ watching │
+├────┼───────────┼─────────────┼─────────┼─────────┼──────────┼────────┼──────┼───────────┼──────────┼──────────┼──────────┼──────────┤
+│ 0  │ server    │ default     │ 1.0.0   │ fork    │ 28767    │ 0s     │ 0    │ online    │ 0%       │ 33.7mb   │ ec2-user │ disabled │
+└────┴───────────┴─────────────┴─────────┴─────────┴──────────┴────────┴──────┴───────────┴──────────┴──────────┴──────────┴──────────┘
+┌────┬───────────┬─────────────┬─────────┬─────────┬──────────┬────────┬──────┬───────────┬──────────┬──────────┬──────────┬──────────┐
+│ id │ name      │ namespace   │ version │ mode    │ pid      │ uptime │ ↺    │ status    │ cpu      │ mem      │ user     │ watching │
+├────┼───────────┼─────────────┼─────────┼─────────┼──────────┼────────┼──────┼───────────┼──────────┼──────────┼──────────┼──────────┤
+│ 0  │ server    │ default     │ 1.0.0   │ fork    │ 28767    │ 0s     │ 0    │ online    │ 0%       │ 57.0mb   │ ec2-user │ disabled │
+└────┴───────────┴─────────────┴─────────┴─────────┴──────────┴────────┴──────┴───────────┴──────────┴──────────┴──────────┴──────────┘
+[PM2] Saving current process list...
+[PM2] Successfully saved in /home/ec2-user/.pm2/dump.pm2
+[PM2] Init System found: systemd
+[PM2] To setup the Startup Script, copy/paste the following command:
+sudo env PATH=$PATH:/usr/bin /usr/lib/nodejs18/lib/node_modules/pm2/bin/pm2 startup systemd -u ec2-user --hp /home/ec2-user
+[ec2-user@ip-172-31-31-192 devops-server]$ sudo env PATH=$PATH:/usr/bin /usr/lib/nodejs18/lib/node_modules/pm2/bin/pm2 startup systemd -u ec2-user --hp /home/ec2-user
+
+                        -------------
+
+__/\\\\\\\\\\\\\____/\\\\____________/\\\\____/\\\\\\\\\_____
+ _\/\\\/////////\\\_\/\\\\\\________/\\\\\\__/\\\///////\\\___
+  _\/\\\_______\/\\\_\/\\\//\\\____/\\\//\\\_\///______\//\\\__
+   _\/\\\\\\\\\\\\\/__\/\\\\///\\\/\\\/_\/\\\___________/\\\/___
+    _\/\\\/////////____\/\\\__\///\\\/___\/\\\________/\\\//_____
+     _\/\\\_____________\/\\\____\///_____\/\\\_____/\\\//________
+      _\/\\\_____________\/\\\_____________\/\\\___/\\\/___________
+       _\/\\\_____________\/\\\_____________\/\\\__/\\\\\\\\\\\\\\\_
+        _\///______________\///______________\///__\///////////////__
+
+
+                          Runtime Edition
+
+        PM2 is a Production Process Manager for Node.js applications
+                     with a built-in Load Balancer.
+
+                Start and Daemonize any application:
+                $ pm2 start app.js
+
+                Load Balance 4 instances of api.js:
+                $ pm2 start api.js -i 4
+
+                Monitor in production:
+                $ pm2 monitor
+
+                Make pm2 auto-boot at server restart:
+                $ pm2 startup
+
+                To go further checkout:
+                http://pm2.io/
+
+
+                        -------------
+
+[PM2] Init System found: systemd
+Platform systemd
+Template
+[Unit]
+Description=PM2 process manager
+Documentation=https://pm2.keymetrics.io/
+After=network.target
+
+[Service]
+Type=forking
+User=ec2-user
+LimitNOFILE=infinity
+LimitNPROC=infinity
+LimitCORE=infinity
+Environment=PATH=/home/ec2-user/.local/bin:/home/ec2-user/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/usr/bin:/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin
+Environment=PM2_HOME=/home/ec2-user/.pm2
+PIDFile=/home/ec2-user/.pm2/pm2.pid
+Restart=on-failure
+
+ExecStart=/usr/lib/nodejs18/lib/node_modules/pm2/bin/pm2 resurrect
+ExecReload=/usr/lib/nodejs18/lib/node_modules/pm2/bin/pm2 reload all
+ExecStop=/usr/lib/nodejs18/lib/node_modules/pm2/bin/pm2 kill
+
+[Install]
+WantedBy=multi-user.target
+
+Target path
+/etc/systemd/system/pm2-ec2-user.service
+Command list
+[ 'systemctl enable pm2-ec2-user' ]
+[PM2] Writing init configuration in /etc/systemd/system/pm2-ec2-user.service
+[PM2] Making script booting at startup...
+[PM2] [-] Executing: systemctl enable pm2-ec2-user...
+Created symlink /etc/systemd/system/multi-user.target.wants/pm2-ec2-user.service → /etc/systemd/system/pm2-ec2-user.service.
+[PM2] [v] Command successfully executed.
++---------------------------------------+
+[PM2] Freeze a process list on reboot via:
+$ pm2 save
+
+[PM2] Remove init script via:
+$ pm2 unstartup systemd
+[ec2-user@ip-172-31-31-192 devops-server]$ pm2 save
+[PM2] Saving current process list...
+[PM2] Successfully saved in /home/ec2-user/.pm2/dump.pm2
+[ec2-user@ip-172-31-31-192 devops-server]$ pm2 list
+┌────┬───────────┬─────────────┬─────────┬─────────┬──────────┬────────┬──────┬───────────┬──────────┬──────────┬──────────┬──────────┐
+│ id │ name      │ namespace   │ version │ mode    │ pid      │ uptime │ ↺    │ status    │ cpu      │ mem      │ user     │ watching │
+├────┼───────────┼─────────────┼─────────┼─────────┼──────────┼────────┼──────┼───────────┼──────────┼──────────┼──────────┼──────────┤
+│ 0  │ server    │ default     │ 1.0.0   │ fork    │ 29781    │ 0s     │ 75   │ online    │ 0%       │ 57.0mb   │ ec2-user │ disabled │
+└────┴───────────┴─────────────┴─────────┴─────────┴──────────┴────────┴──────┴───────────┴──────────┴──────────┴──────────┴──────────┘
+host metrics | cpu: 5.2% | ram usage: 42.4% | disk: ⇓ 0.004mb/s ⇑ 0.003mb/s |
+[ec2-user@ip-172-31-31-192 devops-server]$ pm2 logs
+[TAILING] Tailing last 15 lines for [all] processes (change the value with --lines option)
+/home/ec2-user/.pm2/pm2.log last 15 lines:
+PM2        | 2026-07-13T05:29:49: PM2 log: App [server:0] exited with code [0] via signal [SIGINT]
+PM2        | 2026-07-13T05:29:49: PM2 log: App [server:0] starting in -fork mode-
+PM2        | 2026-07-13T05:29:49: PM2 log: App [server:0] online
+PM2        | 2026-07-13T05:29:52: PM2 log: App [server:0] exited with code [0] via signal [SIGINT]
+PM2        | 2026-07-13T05:29:52: PM2 log: App [server:0] starting in -fork mode-
+PM2        | 2026-07-13T05:29:52: PM2 log: App [server:0] online
+PM2        | 2026-07-13T05:29:55: PM2 log: App [server:0] exited with code [0] via signal [SIGINT]
+PM2        | 2026-07-13T05:29:55: PM2 log: App [server:0] starting in -fork mode-
+PM2        | 2026-07-13T05:29:55: PM2 log: App [server:0] online
+PM2        | 2026-07-13T05:29:58: PM2 log: App [server:0] exited with code [0] via signal [SIGINT]
+PM2        | 2026-07-13T05:29:58: PM2 log: App [server:0] starting in -fork mode-
+PM2        | 2026-07-13T05:29:58: PM2 log: App [server:0] online
+PM2        | 2026-07-13T05:30:01: PM2 log: App [server:0] exited with code [0] via signal [SIGINT]
+PM2        | 2026-07-13T05:30:02: PM2 log: App [server:0] starting in -fork mode-
+PM2        | 2026-07-13T05:30:02: PM2 log: App [server:0] online
+
+/home/ec2-user/.pm2/logs/server-error.log last 15 lines:
+/home/ec2-user/.pm2/logs/server-out.log last 15 lines:
+0|server   | Server listening on port 3000
+0|server   | Server listening on port 3000
+0|server   | Server listening on port 3000
+0|server   | Server listening on port 3000
+0|server   | Server listening on port 3000
+0|server   | Server listening on port 3000
+0|server   | Server listening on port 3000
+0|server   | Server listening on port 3000
+0|server   | Server listening on port 3000
+0|server   | Server listening on port 3000
+0|server   | Server listening on port 3000
+0|server   | Server listening on port 3000
+0|server   | Server listening on port 3000
+0|server   | Server listening on port 3000
+0|server   | Server listening on port 3000
+
+PM2      | App [server:0] exited with code [0] via signal [SIGINT]
+PM2      | App [server:0] starting in -fork mode-
+PM2      | App [server:0] online
+0|server | Server listening on port 3000
+PM2      | App [server:0] exited with code [0] via signal [SIGINT]
+PM2      | App [server:0] starting in -fork mode-
+PM2      | App [server:0] online
+0|server | Server listening on port 3000
+PM2      | App [server:0] exited with code [0] via signal [SIGINT]
+PM2      | App [server:0] starting in -fork mode-
+PM2      | App [server:0] online
+pm2 restart server0|server | Server listening on port 3000
+PM2      | App [server:0] exited with code [0] via signal [SIGINT]
+PM2      | App [server:0] starting in -fork mode-
+PM2      | App [server:0] online
+0|server | Server listening on port 3000
+PM2      | App [server:0] exited with code [0] via signal [SIGINT]
+PM2      | App [server:0] starting in -fork mode-
+PM2      | App [server:0] online
+0|server | Server listening on port 3000
+PM2      | App [server:0] exited with code [0] via signal [SIGINT]
+PM2      | App [server:0] starting in -fork mode-
+PM2      | App [server:0] online
+0|server | Server listening on port 3000
+PM2      | App [server:0] exited with code [0] via signal [SIGINT]
+PM2      | App [server:0] starting in -fork mode-
+PM2      | App [server:0] online
+0|server | Server listening on port 3000
+PM2      | App [server:0] exited with code [0] via signal [SIGINT]
+PM2      | App [server:0] starting in -fork mode-
+PM2      | App [server:0] online
+0|server | Server listening on port 3000
+PM2      | App [server:0] exited with code [0] via signal [SIGINT]
+PM2      | App [server:0] starting in -fork mode-
+PM2      | App [server:0] online
+0|server | Server listening on port 3000
+PM2      | App [server:0] exited with code [0] via signal [SIGINT]
+PM2      | App [server:0] starting in -fork mode-
+PM2      | App [server:0] online
+0|server | Server listening on port 3000
+PM2      | App [server:0] exited with code [0] via signal [SIGINT]
+PM2      | App [server:0] starting in -fork mode-
+PM2      | App [server:0] online
+0|server | Server listening on port 3000
+PM2      | App [server:0] exited with code [0] via signal [SIGINT]
+PM2      | App [server:0] starting in -fork mode-
+PM2      | App [server:0] online
+0|server | Server listening on port 3000
+pm2 stop serverPM2      | App [server:0] exited with code [0] via signal [SIGINT]
+PM2      | App [server:0] starting in -fork mode-
+PM2      | App [server:0] online
+0|server | Server listening on port 3000
+PM2      | App [server:0] exited with code [0] via signal [SIGINT]
+PM2      | App [server:0] starting in -fork mode-
+PM2      | App [server:0] online
+0|server | Server listening on port 3000
+
+
+PM2      | App [server:0] exited with code [0] via signal [SIGINT]
+PM2      | App [server:0] starting in -fork mode-
+PM2      | App [server:0] online
+0|server | Server listening on port 3000
+^C
+[ec2-user@ip-172-31-31-192 devops-server]$ pm2 stop server
+[PM2] Applying action stopProcessId on app [server](ids: [ 0 ])
+[PM2] [server](0) ✓
+┌────┬───────────┬─────────────┬─────────┬─────────┬──────────┬────────┬──────┬───────────┬──────────┬──────────┬──────────┬──────────┐
+│ id │ name      │ namespace   │ version │ mode    │ pid      │ uptime │ ↺    │ status    │ cpu      │ mem      │ user     │ watching │
+├────┼───────────┼─────────────┼─────────┼─────────┼──────────┼────────┼──────┼───────────┼──────────┼──────────┼──────────┼──────────┤
+│ 0  │ server    │ default     │ 1.0.0   │ fork    │ 0        │ 0      │ 92   │ stopped   │ 0%       │ 0b       │ ec2-user │ disabled │
+└────┴───────────┴─────────────┴─────────┴─────────┴──────────┴────────┴──────┴───────────┴──────────┴──────────┴──────────┴──────────┘
+host metrics | cpu: 4.4% | ram usage: 43.7% | disk: ⇓ 0.029mb/s ⇑ 0.003mb/s |
+[ec2-user@ip-172-31-31-192 devops-server]$ pm2 delete server
+[PM2] Applying action deleteProcessId on app [server](ids: [ 0 ])
+[PM2] [server](0) ✓
+┌────┬───────────┬─────────────┬─────────┬─────────┬──────────┬────────┬──────┬───────────┬──────────┬──────────┬──────────┬──────────┐
+│ id │ name      │ namespace   │ version │ mode    │ pid      │ uptime │ ↺    │ status    │ cpu      │ mem      │ user     │ watching │
+└────┴───────────┴─────────────┴─────────┴─────────┴──────────┴────────┴──────┴───────────┴──────────┴──────────┴──────────┴──────────┘
+host metrics | cpu: 0.1% | ram usage: 43.4% | disk: ⇓ 0mb/s ⇑ 0.002mb/s |
+[ec2-user@ip-172-31-31-192 devops-server]$ pm2 -v
+7.0.3
+[ec2-user@ip-172-31-31-192 devops-server]$  exit
+
+
+
+
+
+then go to browzer and click" http://34.227.111.68:3000" you have to check that this working or not
+
